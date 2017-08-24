@@ -48,5 +48,4 @@ if (isset($_POST['submit'])) {
         $obj->addNote($name, $note, $dateTime);
         header("Location: /prjct-master/index.php");
     }
-}
-?>
+}?>
