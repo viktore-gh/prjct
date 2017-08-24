@@ -46,7 +46,7 @@ if (isset($_POST['submit'])) {
     	//текущие дата и время
         $dateTime = date("Y-m-d H:i:s", time() + 3600 * 3);
         $obj->addNote($name, $note, $dateTime);
-        header("Location: /list_note/index.php");
+        header("Location: /prjct-master/index.php");
     }
 }
 ?>
