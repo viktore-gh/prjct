@@ -1,0 +1,27 @@
+<style>
+   #wrapper{
+   width: 600px;
+   margin: 0px auto;
+   padding: 10px;
+   text-align: justify;
+   }
+   #wrapper > div{
+   margin-bottom: 15px;
+   }
+   #wrapper p{
+   margin-bottom: 5px;
+   }
+   .date{
+   color:  #A9A9A9;
+   }
+   .name {
+   color:  #9370DB;
+   font-size:16px;
+   }
+   textarea{
+   width: 100%;
+   padding: 5px;
+   min-height: 200px;
+   resize: vertical;
+   }
+</style>
